@@ -5,15 +5,7 @@ server:
   port: 9001
 
 
-eureka:
-  client:
-    fetch-registry: true
-    register-with-eureka: true
-    registryFetchIntervalSeconds: 5
-    service-url:
-     defaultZone: http://localhost:8999/eureka/
-  instance:
-    hostname: localhost
+
 
 
 
